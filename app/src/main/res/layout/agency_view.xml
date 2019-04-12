@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:padding="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:text=""
+            android:drawableLeft="@drawable/ic_name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/name"
+            android:text="Name: Adentire aYo"
+            android:drawableLeft="@drawable/ic_name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/address"
+            android:drawableLeft="@drawable/ic_state"
+            android:text="Address: @string/location"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+            android:text="Phone: 0813957224"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:drawableLeft="@drawable/ic_distance"
+            android:text="Date: 0813957224"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

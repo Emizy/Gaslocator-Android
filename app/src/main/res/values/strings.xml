@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nevogas</string>
+    <string name="email">adenitiree@gmail.com</string>
+    <string name="location">No 1 Kayode Street Yaba Lagos</string>
+    <string name="phone">08163061764</string>
+    <string name="about">We are gas station in which our customer satisfaction is oour priorty..</string>
+    <string name="notice">Kindly note that,the system will automatically select the preset location you are as your gas station location,in case you are not in your office ,do suspend the update till you get to office.Thanks</string>
+    <string name="google_maps_key">AIzaSyCkHBlF9Ff7-lu9YeF8ahdeu6Vq-ebgT_s</string>
+    <string-array name="price">
+        <item>1kg 350</item>
+        <item>2kg 700</item>
+        <item>3kg 1050</item>
+    </string-array>
+</resources>

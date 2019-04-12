@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_profile"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/startcolor"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/cancel"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="@drawable/circlebackground"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/business"
+            android:layout_width="282dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="Company Name"
+            android:paddingLeft="40dp"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="282dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="Email"
+            android:paddingLeft="40dp"
+            android:textSize="14dp" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="282dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="Phone"
+            android:paddingLeft="40dp"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/about"
+            android:layout_width="282dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="About Us"
+            android:paddingLeft="40dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/submit_profile"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:text="UPDATE"
+            android:background="@drawable/button"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

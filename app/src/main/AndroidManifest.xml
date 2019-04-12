@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.nevogas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/head2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCkHBlF9Ff7-lu9YeF8ahdeu6Vq-ebgT_s" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.UserLoginActivity" />
+        <activity android:name=".activities.UserRegisterActivity" />
+        <activity android:name=".activities.AgencyLoginActivity" />
+        <activity android:name=".activities.AgencyRegisterActivity" />
+        <activity android:name=".activities.UserDashboard" />
+        <activity android:name=".activities.AgencyDashboard" />
+        <activity android:name=".activities.UserProfile" />
+        <activity android:name=".activities.AgencyProfile" />
+        <activity android:name=".activities.SpecialityActivity" />
+        <activity android:name=".activities.UserResetPasswordActivity" />
+        <activity android:name=".activities.AgencyResetPasswordActivity" />
+        <activity android:name=".activities.VerifyUserCodeActivity" />
+        <activity android:name=".activities.EditProfileActivity" />
+        <activity android:name=".activities.AddLocationsActivity" />
+        <activity android:name=".activities.UserEditProfile" />
+        <activity android:name=".activities.SearchStationActivity" />
+        <activity android:name=".activities.GasStationActivity" />
+        <activity android:name=".activities.MapActivity" />
+        <activity android:name=".activities.OrderGasActivity" />
+        <activity android:name=".activities.ViewOrder" />
+        <activity android:name=".activities.DetailedActivity" />
+        <activity android:name=".activities.GasMapActivity" />
+        <activity android:name=".activities.UserHistoryActivity" />
+        <activity android:name=".activities.UserHistoryDetailActivity"></activity>
+    </application>
+
+</manifest>

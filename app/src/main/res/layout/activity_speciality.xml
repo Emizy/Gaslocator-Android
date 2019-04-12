@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_speciality"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.nevogas.activities.SpecialityActivity"
+    android:background="@drawable/specal">
+
+
+    <Button
+        android:text="User"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/user_login" />
+    <Button
+        android:text="AGENCY"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/gas_login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="SELECT "
+        android:layout_marginBottom="131dp"
+        android:layout_alignBottom="@+id/user_login"
+        android:layout_alignRight="@+id/gas_login"
+        android:layout_alignEnd="@+id/gas_login"
+        android:layout_marginRight="41dp"
+        android:layout_marginEnd="41dp" />
+</RelativeLayout>
